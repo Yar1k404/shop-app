@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main h2, p, b {
+    margin: 10px 20px;
+    color: #333;
+}
+
+main b {
+    color: #20ab45;
+    font-size: 20px;
+}
