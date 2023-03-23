@@ -1,8 +1,7 @@
 import Item from "../item/Item";
-import {products} from '../utils/ProductsList'
 import './Items.css'
 
-function Items({onAdd}) {
+function Items({products, onAdd}) {
     return (
         <main>
             {products.map(item => {

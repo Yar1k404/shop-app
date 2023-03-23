@@ -1,14 +1,16 @@
 import React, {useState} from "react";
+import {products} from "./components/utils/ProductsList";
 import Navigation from "./components/navigation/Navigation";
 import Header from "./components/header/Header";
 import Items from "./components/items/Items";
 import Footer from "./components/footer/Footer";
+import Categories from "./components/categories/Categories";
 import './index.css'
 import './media.css'
 
-
 function App() {
     const [orders, setOrders] = useState([])
+    const [currentItems, setCurrentItems] = useState(products)
 
     const addToOrder = (item) => {
         let inArray = false
@@ -26,11 +28,20 @@ function App() {
         setOrders(orders.filter(item => item.id !== id))
     }
 
+    const chooseCategory = (category) => {
+        if (category === 'all') {
+            setCurrentItems(products)
+            return
+        }
+        setCurrentItems(products.filter(item => item.category === category))
+    }
+
     return (
         <div className="wrapper">
             <Navigation orders={orders} onDelete={removeOrder}/>
             <Header/>
-            <Items onAdd={addToOrder}/>
+            <Categories chooseCategory={chooseCategory}/>
+            <Items products={currentItems} onAdd={addToOrder}/>
             <Footer/>
         </div>
     );

@@ -24,7 +24,7 @@ const products = [
         id: 2,
         title: 'Sofa',
         img: product3,
-        category: 'sofa',
+        category: 'sofas',
         price: '549.99'
     },
     {

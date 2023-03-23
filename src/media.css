@@ -4,8 +4,21 @@
         width: 200px;
     }
 
+    .category:hover {
+        transform: scale(1);
+    }
+
+    main {
+        justify-content: space-between;
+        gap: 0;
+    }
+
     .item {
         flex-basis: 48%;
+    }
+
+    .add-to-cart:hover {
+        transform: scale(1);
     }
 }
 
@@ -30,5 +43,28 @@
 
     .mobile-nav {
         display: flex;
+    }
+}
+
+@media (max-width: 460px) {
+    .categories {
+        flex-wrap: wrap;
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 390px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    main b {
+        font-size: 17px;
+    }
+
+    .add-to-cart {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
     }
 }

@@ -1,9 +1,8 @@
 import {FaShoppingCart} from "react-icons/fa";
 import {useState} from "react";
-import MobileNav from "../mobileNavigation/MobileNav";
+import MobileNav from "../mobile-navigation/MobileNav";
 import Order from "../order/Order";
 import './Navigation.css'
-import item from "../item/Item";
 
 function Navigation({orders, onDelete}) {
     let [cartOpen, setCartOpen] = useState(false)
