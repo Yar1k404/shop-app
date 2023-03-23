@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-shop/static/css/main.17337dd7.css",
-    "main.js": "/react-shop/static/js/main.391d6771.js",
+    "main.css": "/react-shop/static/css/main.a163af69.css",
+    "main.js": "/react-shop/static/js/main.3c7fee4b.js",
     "static/media/sofa.jpeg": "/react-shop/static/media/sofa.b126bac7a44bfe3240e5.jpeg",
     "static/media/table.webp": "/react-shop/static/media/table.02204c24268f8a130a72.webp",
     "static/media/bg.jpeg": "/react-shop/static/media/bg.e93076dc069df05ddbb2.jpeg",
@@ -10,11 +10,11 @@
     "static/media/wall-light.jpeg": "/react-shop/static/media/wall-light.0e94b0aa967bbd5e9f39.jpeg",
     "static/media/chair-white.jpeg": "/react-shop/static/media/chair-white.3a0050b3d451879aec2e.jpeg",
     "index.html": "/react-shop/index.html",
-    "main.17337dd7.css.map": "/react-shop/static/css/main.17337dd7.css.map",
-    "main.391d6771.js.map": "/react-shop/static/js/main.391d6771.js.map"
+    "main.a163af69.css.map": "/react-shop/static/css/main.a163af69.css.map",
+    "main.3c7fee4b.js.map": "/react-shop/static/js/main.3c7fee4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.17337dd7.css",
-    "static/js/main.391d6771.js"
+    "static/css/main.a163af69.css",
+    "static/js/main.3c7fee4b.js"
   ]
 }
