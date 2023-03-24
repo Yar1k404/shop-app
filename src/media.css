@@ -44,6 +44,11 @@
     .mobile-nav {
         display: flex;
     }
+
+    .presentation::after {
+        top: 60px;
+        left: 40px;
+    }
 }
 
 @media (max-width: 460px) {

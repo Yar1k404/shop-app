@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import {products} from "./components/utils/ProductsList";
+
 import Navigation from "./components/navigation/Navigation";
 import Header from "./components/header/Header";
 import Items from "./components/items/Items";
 import Footer from "./components/footer/Footer";
 import Categories from "./components/categories/Categories";
+
 import './index.css'
 import './media.css'
 
