@@ -1,7 +1,7 @@
 
 function Contacts() {
     return (
-        <div>
+        <div className='cart-wrapper'>
             <h1>CONTACTS</h1>
         </div>
     )
