@@ -1,4 +1,54 @@
+.pages-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
 .cart-wrapper {
     margin: 40px 0;
     flex-grow: 1;
+}
+
+.about-content {
+    margin-top: 50px;
+    max-width: 700px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contacts-wrapper {
+    display: flex;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.contacts-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 450px;
+    background-color: #141414;
+    color: #fff;
+}
+
+.contacts-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.google-maps {
+    width: 400px;
+    height: 450px;
+    border: none;
+}
+
+.mail-link {
+    text-decoration: none;
+    color: #fff;
 }

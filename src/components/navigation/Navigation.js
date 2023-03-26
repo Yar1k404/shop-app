@@ -12,7 +12,7 @@ function Navigation({orders, onDelete}) {
 
     return (
         <div className='nav'>
-            <span className="logo">
+            <span className="logo" onClick={() => setCartOpen(false)}>
                 <NavLink to='/react-shop' className='nav-link'>
                     House Staff
                 </NavLink>
@@ -21,16 +21,20 @@ function Navigation({orders, onDelete}) {
                 <li><FaShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)}
                                     className={`shopping-cart-btn ${cartOpen && 'active'}`}/></li>
                 <li>
-                    <NavLink to='/aboutUs' className='nav-link'>
+                    <NavLink to='/aboutUs' className='nav-link' onClick={() => setCartOpen(false)}>
                         About us
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/contacts' className='nav-link'>
+                    <NavLink to='/contacts' className='nav-link' onClick={() => setCartOpen(false)}>
                         Contacts
                     </NavLink>
                 </li>
-                <li>Account</li>
+                <li>
+                    <NavLink to='/account' className='nav-link' onClick={() => setCartOpen(false)}>
+                        Account
+                    </NavLink>
+                </li>
             </ul>
 
             <MobileNav/>
@@ -40,7 +44,7 @@ function Navigation({orders, onDelete}) {
                 </div>
             )}
         </div>
-    )
+)
 }
 
 export default Navigation
