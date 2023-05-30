@@ -17,3 +17,8 @@
     border: 1px solid silver;
     transform: scale(1.1);
 }
+
+.selected {
+    background-color: #000000;
+    color: white;
+}
