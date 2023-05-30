@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-shop/static/css/main.3ed19d92.css",
-    "main.js": "/react-shop/static/js/main.fe87938c.js",
+    "main.css": "/react-shop/static/css/main.4b875d99.css",
+    "main.js": "/react-shop/static/js/main.be752655.js",
     "static/media/sofa.jpeg": "/react-shop/static/media/sofa.b126bac7a44bfe3240e5.jpeg",
     "static/media/table.webp": "/react-shop/static/media/table.02204c24268f8a130a72.webp",
     "static/media/bg.jpeg": "/react-shop/static/media/bg.e93076dc069df05ddbb2.jpeg",
@@ -12,11 +12,11 @@
     "static/media/instagram.svg": "/react-shop/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
     "static/media/twitter.svg": "/react-shop/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
     "index.html": "/react-shop/index.html",
-    "main.3ed19d92.css.map": "/react-shop/static/css/main.3ed19d92.css.map",
-    "main.fe87938c.js.map": "/react-shop/static/js/main.fe87938c.js.map"
+    "main.4b875d99.css.map": "/react-shop/static/css/main.4b875d99.css.map",
+    "main.be752655.js.map": "/react-shop/static/js/main.be752655.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ed19d92.css",
-    "static/js/main.fe87938c.js"
+    "static/css/main.4b875d99.css",
+    "static/js/main.be752655.js"
   ]
 }
