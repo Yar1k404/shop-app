@@ -10,6 +10,7 @@ import Categories from "./components/categories/Categories";
 import Contacts from "./pages/Contacts";
 import AboutUs from "./pages/AboutUs";
 import Cart from "./pages/Cart";
+import Account from "./pages/Account";
 
 import './index.css'
 import './media.css'
@@ -54,6 +55,7 @@ function App() {
                     </>}/>
                     <Route path='/contacts' element={<Contacts/>}/>
                     <Route path='/aboutUs' element={<AboutUs/>}/>
+                    <Route path='/account' element={<Account/>}/>
                     <Route path='/cart' element={<Cart orders={orders} onDelete={removeOrder}/>}/>
                 </Routes>
                 <Footer/>
