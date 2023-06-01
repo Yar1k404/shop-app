@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/react-shop/static/css/main.53ba6c90.css",
-    "main.js": "/react-shop/static/js/main.376f833c.js",
+    "main.css": "/react-shop/static/css/main.f488366e.css",
+    "main.js": "/react-shop/static/js/main.9a11c931.js",
+    "static/media/sofa3.jpg": "/react-shop/static/media/sofa3.87140fe64b1fe3a6acf4.jpg",
     "static/media/sofa.jpeg": "/react-shop/static/media/sofa.b126bac7a44bfe3240e5.jpeg",
+    "static/media/sofa2.webp": "/react-shop/static/media/sofa2.ce54eb7acc123eaa5dc3.webp",
     "static/media/table.webp": "/react-shop/static/media/table.02204c24268f8a130a72.webp",
+    "static/media/table2.webp": "/react-shop/static/media/table2.897c67254a701021cbf0.webp",
     "static/media/bg.jpeg": "/react-shop/static/media/bg.e93076dc069df05ddbb2.jpeg",
     "static/media/outdoor-lamp.jpg": "/react-shop/static/media/outdoor-lamp.6f0bb7568b30a393853e.jpg",
     "static/media/chair-grey.jpeg": "/react-shop/static/media/chair-grey.ffc8dcee972c7c92ddb7.jpeg",
@@ -12,11 +15,11 @@
     "static/media/instagram.svg": "/react-shop/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
     "static/media/twitter.svg": "/react-shop/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
     "index.html": "/react-shop/index.html",
-    "main.53ba6c90.css.map": "/react-shop/static/css/main.53ba6c90.css.map",
-    "main.376f833c.js.map": "/react-shop/static/js/main.376f833c.js.map"
+    "main.f488366e.css.map": "/react-shop/static/css/main.f488366e.css.map",
+    "main.9a11c931.js.map": "/react-shop/static/js/main.9a11c931.js.map"
   },
   "entrypoints": [
-    "static/css/main.53ba6c90.css",
-    "static/js/main.376f833c.js"
+    "static/css/main.f488366e.css",
+    "static/js/main.9a11c931.js"
   ]
 }
