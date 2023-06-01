@@ -3,7 +3,7 @@ import './Item.css'
 function Item({id, img, title, category, price, onAdd}) {
     return (
         <div className='item'>
-            <img src={img}/>
+            <img src={img} alt={'product'}/>
             <h2>{title}</h2>
             <p>{category}</p>
             <b>{price} $</b>

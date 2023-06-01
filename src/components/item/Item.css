@@ -36,3 +36,14 @@
 .add-to-cart:hover {
     transform: scale(1.5);
 }
+
+.notification {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    z-index: 9999;
+    font-size: 40px;
+}
