@@ -1,9 +1,10 @@
-import {useState} from "react";
-import {NavLink} from "react-router-dom";
+import React from "react";
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import './MobileNav.css'
 
 function MobileNav() {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState<boolean>(false)
 
     window.addEventListener('click', () => {
         if (open) {

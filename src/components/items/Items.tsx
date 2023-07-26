@@ -1,7 +1,21 @@
+import React from "react";
 import Item from "../item/Item";
 import './Items.css'
 
-function Items({products, onAdd}) {
+interface Product {
+    id: number,
+    title: string,
+    img: any,
+    category: string,
+    price: string,
+}
+
+interface ItemsProps {
+    products: Product[],
+    onAdd: (id: number) => void
+}
+
+function Items({products, onAdd}: ItemsProps) {
     return (
         <main>
             {products.map(item => {
