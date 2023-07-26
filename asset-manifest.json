@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-shop/static/css/main.f488366e.css",
-    "main.js": "/react-shop/static/js/main.9a11c931.js",
+    "main.css": "/react-shop/static/css/main.0c40aa92.css",
+    "main.js": "/react-shop/static/js/main.2d3856ad.js",
     "static/media/sofa3.jpg": "/react-shop/static/media/sofa3.87140fe64b1fe3a6acf4.jpg",
     "static/media/sofa.jpeg": "/react-shop/static/media/sofa.b126bac7a44bfe3240e5.jpeg",
     "static/media/sofa2.webp": "/react-shop/static/media/sofa2.ce54eb7acc123eaa5dc3.webp",
@@ -15,11 +15,11 @@
     "static/media/instagram.svg": "/react-shop/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
     "static/media/twitter.svg": "/react-shop/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
     "index.html": "/react-shop/index.html",
-    "main.f488366e.css.map": "/react-shop/static/css/main.f488366e.css.map",
-    "main.9a11c931.js.map": "/react-shop/static/js/main.9a11c931.js.map"
+    "main.0c40aa92.css.map": "/react-shop/static/css/main.0c40aa92.css.map",
+    "main.2d3856ad.js.map": "/react-shop/static/js/main.2d3856ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.f488366e.css",
-    "static/js/main.9a11c931.js"
+    "static/css/main.0c40aa92.css",
+    "static/js/main.2d3856ad.js"
   ]
 }
