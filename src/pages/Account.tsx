@@ -1,13 +1,14 @@
+import React from "react";
 import EmptyField from "../components/empty-field/EmptyField";
-import {NavLink} from "react-router-dom";
-import {useState} from "react";
-import {FaEye, FaEyeSlash} from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import './Account.css'
 
 function Account() {
-    const [showPassword, setShowPassword] = useState(false)
+    const [showPassword, setShowPassword] = useState<boolean>(false)
 
-    const toggleShowPassword = () => {
+    const toggleShowPassword = (): void => {
         setShowPassword(!showPassword)
     }
 

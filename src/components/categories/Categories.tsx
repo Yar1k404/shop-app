@@ -1,10 +1,19 @@
 import React, {useState} from "react";
 import './Categories.css'
 
-function Categories({chooseCategory}) {
-    const [selectedCategory, setSelectedCategory] = useState('all')
+interface CategoriesList {
+    key: string,
+    name: string
+}
 
-    const [categories, setCategories] = useState([
+interface CategoriesProps {
+    chooseCategory: (categoryKey: string) => void
+}
+
+function Categories({chooseCategory}: CategoriesProps) {
+    const [selectedCategory, setSelectedCategory] = useState<string>('all')
+
+    const [categories, setCategories] = useState<CategoriesList[]>([
         {
             key: 'all',
             name: 'All products'
@@ -27,7 +36,7 @@ function Categories({chooseCategory}) {
         }
     ])
 
-    const handleCategoryClick = (categoryKey) => {
+    const handleCategoryClick = (categoryKey: string) => {
         setSelectedCategory(categoryKey)
         chooseCategory(categoryKey)
     }

@@ -1,6 +1,16 @@
+import React from "react";
 import './Item.css'
 
-function Item({id, img, title, category, price, onAdd}) {
+interface ItemProps {
+    id: number,
+    img: any,
+    title: string,
+    category: string,
+    price: string,
+    onAdd: (ItemProps) => void
+}
+
+function Item({id, img, title, category, price, onAdd}: ItemProps) {
     return (
         <div className='item'>
             <img src={img} alt={'product'}/>

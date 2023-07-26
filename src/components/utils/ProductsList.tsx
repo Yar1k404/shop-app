@@ -8,7 +8,15 @@ import product7 from '../../img/productsImg/sofa2.webp'
 import product8 from '../../img/productsImg/table2.webp'
 import product9 from '../../img/productsImg/sofa3.jpg'
 
-const products = [
+interface ProductList {
+    id: number,
+    title: string,
+    img: any,
+    category: string,
+    price: string,
+}
+
+const products: ProductList[] = [
     {
         id: 0,
         title: 'Grey chair',
@@ -74,4 +82,4 @@ const products = [
     },
 ]
 
-export {products}
+export { products }

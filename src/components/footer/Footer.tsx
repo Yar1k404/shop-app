@@ -1,3 +1,4 @@
+import React from "react";
 import instagram from '../../img/icons/instagram.svg'
 import twitter from '../../img/icons/twitter.svg'
 import './Footer.css'

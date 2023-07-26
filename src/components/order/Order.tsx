@@ -1,7 +1,16 @@
-import {FaTrash} from "react-icons/fa";
+import React from "react";
+import { FaTrash } from "react-icons/fa";
 import './Order.css'
 
-function Order({img, title, price, id, onDelete}) {
+interface OrderProps {
+    img: string,
+    title: string,
+    price: string,
+    id: number,
+    onDelete: (id: number) => number
+}
+
+function Order({img, title, price, id, onDelete}: OrderProps) {
     return (
         <div className='order'>
             <img src={img}/>

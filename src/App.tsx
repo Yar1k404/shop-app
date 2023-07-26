@@ -1,6 +1,6 @@
-import React, {useState} from "react";
-import {products} from "./components/utils/ProductsList";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import React, { useState } from "react";
+import { products } from "./components/utils/ProductsList";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navigation from "./components/navigation/Navigation";
 import Header from "./components/header/Header";
@@ -15,8 +15,15 @@ import Account from "./pages/Account";
 import './index.css'
 import './media.css'
 
+interface OrderList {
+    img: string,
+    title: string,
+    price: string,
+    id: number,
+}
+
 function App() {
-    const [orders, setOrders] = useState([])
+    const [orders, setOrders] = useState<OrderList[]>([])
     const [currentItems, setCurrentItems] = useState(products)
 
     const addToOrder = (item) => {
@@ -31,11 +38,11 @@ function App() {
         }
     }
 
-    const removeOrder = (id) => {
+    const removeOrder = (id: number): void => {
         setOrders(orders.filter(item => item.id !== id))
     }
 
-    const chooseCategory = (category) => {
+    const chooseCategory = (category: string): void => {
         if (category === 'all') {
             setCurrentItems(products)
             return

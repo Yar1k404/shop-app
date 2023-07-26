@@ -1,13 +1,26 @@
-import {FaShoppingCart} from "react-icons/fa";
-import {useState} from "react";
-import {NavLink} from "react-router-dom";
-import {showOrder} from "../utils/showOrder";
-import {showEmpty} from "../utils/showEmpty";
+import React from "react";
+import { FaShoppingCart } from "react-icons/fa";
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { showOrder } from "../utils/showOrder";
+import { showEmpty } from "../utils/showEmpty";
 
 import MobileNav from "../mobile-navigation/MobileNav";
 import './Navigation.css'
 
-function Navigation({orders, onDelete}) {
+interface OrderList {
+    img: string,
+    title: string,
+    price: string,
+    id: number,
+}
+
+interface NavigationProps {
+    orders: OrderList[];
+    onDelete: (orderId: number) => void;
+}
+
+function Navigation({orders, onDelete}: NavigationProps) {
     let [cartOpen, setCartOpen] = useState(false)
 
     return (
@@ -48,4 +61,3 @@ function Navigation({orders, onDelete}) {
 }
 
 export default Navigation
-
