@@ -26,7 +26,7 @@ function Navigation({orders, onDelete}: NavigationProps) {
     return (
         <div className='nav'>
             <span className="logo" onClick={() => setCartOpen(false)}>
-                <NavLink to='/shop' className='nav-link'>
+                <NavLink to='/shop-app' className='nav-link'>
                     House Furniture
                 </NavLink>
             </span>

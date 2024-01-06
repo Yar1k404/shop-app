@@ -55,7 +55,7 @@ function App() {
             <Router>
                 <Navigation orders={orders} onDelete={removeOrder}/>
                 <Routes>
-                    <Route path='/shop' element={<>
+                    <Route path='/shop-app' element={<>
                         <Header/>
                         <Categories chooseCategory={chooseCategory}/>
                         <Items products={currentItems} onAdd={addToOrder}/>
