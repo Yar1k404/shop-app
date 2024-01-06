@@ -55,13 +55,13 @@ function App() {
             <Router>
                 <Navigation orders={orders} onDelete={removeOrder}/>
                 <Routes>
-                    <Route path='/react-shop' element={<>
+                    <Route path='/shop' element={<>
                         <Header/>
                         <Categories chooseCategory={chooseCategory}/>
                         <Items products={currentItems} onAdd={addToOrder}/>
                     </>}/>
                     <Route path='/contacts' element={<Contacts/>}/>
-                    <Route path='/aboutUs' element={<AboutUs/>}/>
+                    <Route path='/about' element={<AboutUs/>}/>
                     <Route path='/account' element={<Account/>}/>
                     <Route path='/cart' element={<Cart orders={orders} onDelete={removeOrder}/>}/>
                 </Routes>
