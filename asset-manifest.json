@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/shop-app/static/css/main.5b328344.css",
-    "main.js": "/shop-app/static/js/main.8b38eceb.js",
-    "static/media/sofa3.jpg": "/shop-app/static/media/sofa3.87140fe64b1fe3a6acf4.jpg",
-    "static/media/sofa.jpeg": "/shop-app/static/media/sofa.b126bac7a44bfe3240e5.jpeg",
-    "static/media/sofa2.webp": "/shop-app/static/media/sofa2.ce54eb7acc123eaa5dc3.webp",
-    "static/media/table.webp": "/shop-app/static/media/table.02204c24268f8a130a72.webp",
-    "static/media/table2.webp": "/shop-app/static/media/table2.897c67254a701021cbf0.webp",
-    "static/media/bg.jpeg": "/shop-app/static/media/bg.e93076dc069df05ddbb2.jpeg",
-    "static/media/outdoor-lamp.jpg": "/shop-app/static/media/outdoor-lamp.6f0bb7568b30a393853e.jpg",
-    "static/media/chair-grey.jpeg": "/shop-app/static/media/chair-grey.ffc8dcee972c7c92ddb7.jpeg",
-    "static/media/wall-light.jpeg": "/shop-app/static/media/wall-light.0e94b0aa967bbd5e9f39.jpeg",
-    "static/media/chair-white.jpeg": "/shop-app/static/media/chair-white.3a0050b3d451879aec2e.jpeg",
-    "static/media/instagram.svg": "/shop-app/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
-    "static/media/twitter.svg": "/shop-app/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
-    "index.html": "/shop-app/index.html",
-    "main.5b328344.css.map": "/shop-app/static/css/main.5b328344.css.map",
-    "main.8b38eceb.js.map": "/shop-app/static/js/main.8b38eceb.js.map"
+    "main.css": "/shop/static/css/main.de6b1019.css",
+    "main.js": "/shop/static/js/main.a9c5406f.js",
+    "static/media/sofa3.jpg": "/shop/static/media/sofa3.87140fe64b1fe3a6acf4.jpg",
+    "static/media/sofa.jpeg": "/shop/static/media/sofa.b126bac7a44bfe3240e5.jpeg",
+    "static/media/sofa2.webp": "/shop/static/media/sofa2.ce54eb7acc123eaa5dc3.webp",
+    "static/media/table.webp": "/shop/static/media/table.02204c24268f8a130a72.webp",
+    "static/media/table2.webp": "/shop/static/media/table2.897c67254a701021cbf0.webp",
+    "static/media/bg.jpeg": "/shop/static/media/bg.e93076dc069df05ddbb2.jpeg",
+    "static/media/outdoor-lamp.jpg": "/shop/static/media/outdoor-lamp.6f0bb7568b30a393853e.jpg",
+    "static/media/chair-grey.jpeg": "/shop/static/media/chair-grey.ffc8dcee972c7c92ddb7.jpeg",
+    "static/media/wall-light.jpeg": "/shop/static/media/wall-light.0e94b0aa967bbd5e9f39.jpeg",
+    "static/media/chair-white.jpeg": "/shop/static/media/chair-white.3a0050b3d451879aec2e.jpeg",
+    "static/media/instagram.svg": "/shop/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
+    "static/media/twitter.svg": "/shop/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
+    "index.html": "/shop/index.html",
+    "main.de6b1019.css.map": "/shop/static/css/main.de6b1019.css.map",
+    "main.a9c5406f.js.map": "/shop/static/js/main.a9c5406f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b328344.css",
-    "static/js/main.8b38eceb.js"
+    "static/css/main.de6b1019.css",
+    "static/js/main.a9c5406f.js"
   ]
 }
